@@ -17,9 +17,9 @@ const cartItems = useSelector((store)=> store.cart.items)
 console.log(cartItems);
     return (
         <div className="flex  justify-between shadow-xl">
-            <div className=" w-28">
+            <div className=" w-28 flex">
                <img src={LOGO_URl}></img>
-             
+               <h2 className="text-3xl pt-9">DineEase</h2>
             </div> 
             <div className="flex items-center font-semibold text-black font-sans" >
                

@@ -20,7 +20,7 @@ const ItemCards=({item})=>{
                 </div>
                 <div>
                   <div className="absolute">
-                   <button className="p-2 mx-7 rounded-lg bg-black text-white" onClick={()=>handleaddclick(item)}>Add+</button>
+                   <button className="p-2 mx-7 rounded-lg bg-black text-white hover:bg-slate-500" onClick={()=>handleaddclick(item)}>Add+</button>
                   </div>
                   
                    <img src={CDN_URL+ item?.card?.info?.imageId} className="w-[112px] h-[112px] rounded-md "></img> 
